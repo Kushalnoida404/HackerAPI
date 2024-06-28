@@ -16,10 +16,10 @@ public class NewsService : INewsService
         _distributedCache = distributedCache;
     }
     /// <summary>
-    /// 
+    /// Get Latest News Items
     /// </summary>
-    /// <param name="cancellationToken"></param>
-    /// <returns></returns>
+    /// <param name="cancellationToken">Pass Cancellation Token</param>
+    /// <returns>Return News Items</returns>
     public async Task<IEnumerable<Core.News.NewsItems>> GetNewsAsync(CancellationToken cancellationToken = default)
     {
         List<Core.News.News> news = await _newsRepository.GetNewsAsync(cancellationToken);
