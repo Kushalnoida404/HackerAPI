@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "compute.appService1": {
+      "restored": true,
+      "restoreTime": "2024-06-28T05:04:19.6083144Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-06-28T05:03:32.8030413Z"
+    }
+  },
+  "parameters": {
+    "compute.appService1.subscriptionId": {
+      "Name": "compute.appService1.subscriptionId",
+      "Type": "subscription",
+      "Value": "d999552e-14ad-493c-9077-178dded3b3b4"
+    },
+    "compute.appService1.resourceGroupName": {
+      "Name": "compute.appService1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Test"
+    }
+  }
+}
