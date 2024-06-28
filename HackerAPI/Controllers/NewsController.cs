@@ -14,7 +14,11 @@ public class NewsController : ControllerBase
         _newsService = newsService;
     }
 
-
+    /// <summary>
+    /// Get Latest News
+    /// </summary>
+    /// <param name="cancellationToken">Pass Cancellation Token</param>
+    /// <returns></returns>
     [HttpGet]
     public async Task<IActionResult> GetLatestNewsAsync(CancellationToken cancellationToken)
     {
